@@ -1,4 +1,4 @@
-def is_primer(num):
+def is_prime_num(num):
     result = True
     for i in range(2, num):
         if num % i == 0:
@@ -8,7 +8,7 @@ def is_primer(num):
 
 def main():
     for i in range(2, 101):
-        if is_primer(i):
+        if is_prime_num(i):
             print(i)
     return
 
